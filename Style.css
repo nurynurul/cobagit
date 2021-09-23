@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    background: #D3E0EA;
+    font-family: 'system-ui';
+}
+#cari[type=text] {
+    width: 120px;
+    box-sizing: border-box;
+    border: 1px solid #3DB2FF;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: white; 
+    background-position: 5px 5px; 
+    background-repeat: no-repeat;
+    padding: 7px 25px 5px 30px;
+	margin-left: 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.5s ease-in-out;
+}
+#cari[type=text]:focus {
+    width: 100%;
+}
+strong {
+	font-family: lucida;
+   }
+h1 {
+    text-align: center;
+	margin-top: 10px;
+   }
+.wm {
+	color: white;
+}
+img {
+	 height: 300px;
+	 margin: 10px auto;
+	 padding: 5px;
+	 border: 10 px solid black;
+	 border-radius: 50px;
+	}
+header {
+     text-align: center;
+	 color: #232323;
+	 background: #FDF5CA;
+   }
+  
+a {
+  text-decoration: none;
+  color: #353535;
+  display: block;
+  transition: 0.3s;
+}
+a:hover {
+  transition: 0.3s;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,41,121,1) 35%, rgba(0,159,255,1) 100%);
+	
+}
+
+.title {
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    padding: 0 20px;
+    display: block;
+    line-height: 50px;
+	color: white;
+}
+
+.menu li:hover{
+    background-color: #B5DEFF;
+}
+.wrap{
+  width: 80%;
+  margin: 0 auto;
+}
+.tblmenubox {
+    display: inline-block;
+    float: right;
+    line-height: 50px;
+}
+.abcmenu {
+    display: block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menubox{
+  display: none;
+  visibility: hidden;
+}
+@media screen and (max-width:800px){
+  .menu{
+    display: none;
+	
+  }
+.menubox{
+    display: block;
+    visibility: visible;
+  }
+.menu.sh {
+    display: block;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    left: 0;
+}
+
+.menu a:hover {
+    color: #fff;
+    background: #353535;
+}
+
+.menu ul li {
+    display: block;
+    text-align: center;
+}
+}
+
+.box {
+	width: 850px;
+	height: 4580px;
+	background: white;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	padding: 25px;
+}
